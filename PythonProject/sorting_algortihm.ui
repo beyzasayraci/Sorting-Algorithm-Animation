@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>865</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>12</pointsize>
+    <weight>50</weight>
+    <italic>true</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/icon/images (1).png</normaloff>:/icon/images (1).png</iconset>
+  </property>
+  <property name="whatsThis">
+   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SORT ALGORITHM&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(45, 79, 185, 255), stop:0.146893 rgba(72, 147, 255, 145), stop:0.333333 rgba(0, 137, 255, 208), stop:0.514124 rgba(0, 50, 255, 130), stop:0.683616 rgba(71, 146, 255, 130), stop:0.847458 rgba(75, 119, 182, 255));
+background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:0.17, y2:0.261, stop:0 rgba(154, 45, 185, 255), stop:0.146893 rgba(218, 48, 255, 145), stop:0.333333 rgba(128, 19, 153, 208), stop:0.514124 rgba(158, 37, 124, 130), stop:0.683616 rgba(147, 6, 101, 130), stop:0.847458 rgba(195, 60, 203, 255));
+background-color: qlineargradient(spread:repeat, x1:1, y1:0, x2:0, y2:1, stop:0 rgba(154, 45, 185, 255), stop:0.146893 rgba(218, 48, 255, 145), stop:0.333333 rgba(128, 19, 153, 208), stop:0.514124 rgba(158, 37, 124, 130), stop:0.683616 rgba(147, 6, 101, 130), stop:0.847458 rgba(195, 60, 203, 255));</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>10</y>
+     <width>471</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(232, 203, 255);
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; font-style:italic;&quot;&gt;Unsorted Array&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>120</y>
+     <width>471</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(232, 203, 255);
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-style:italic;&quot;&gt;Sorted Array&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Papyrus</family>
+     <pointsize>8</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: qradialgradient(spread:reflect, cx:1, cy:1, radius:2, fx:0.074, fy:0.051, stop:0 rgba(72, 72, 72, 252), stop:0.357955 rgba(1, 2, 3, 80), stop:0.44 rgba(12, 6, 6, 80), stop:0.5625 rgba(61, 56, 56, 156), stop:0.704545 rgba(72, 45, 45, 80), stop:0.943182 rgba(113, 113, 113, 0));</string>
+   </property>
+   <property name="text">
+    <string>RANDOM ARRAY</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>170</y>
+     <width>71</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Papyrus</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+background-color: rgb(215, 203, 255);</string>
+   </property>
+   <property name="text">
+    <string>speed</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="widget1" name="widget1" native="true">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>861</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>60</y>
+      <width>731</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MV Boli</family>
+      <pointsize>85</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(229, 255, 208);
+background-color: qradialgradient(spread:reflect, cx:1, cy:1, radius:2, fx:0.074, fy:0.051, stop:0 rgba(72, 72, 72, 252), stop:0.357955 rgba(1, 2, 3, 80), stop:0.44 rgba(12, 6, 6, 80), stop:0.5625 rgba(61, 56, 56, 156), stop:0.704545 rgba(72, 45, 45, 80), stop:0.943182 rgba(113, 113, 113, 0));</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_12">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>110</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Papyrus</family>
+     <pointsize>8</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: qradialgradient(spread:reflect, cx:1, cy:1, radius:2, fx:0.074, fy:0.051, stop:0 rgba(72, 72, 72, 252), stop:0.357955 rgba(1, 2, 3, 80), stop:0.44 rgba(12, 6, 6, 80), stop:0.5625 rgba(61, 56, 56, 156), stop:0.704545 rgba(72, 45, 45, 80), stop:0.943182 rgba(113, 113, 113, 0));</string>
+   </property>
+   <property name="text">
+    <string>DEFAULT ARRAY</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_13">
+   <property name="geometry">
+    <rect>
+     <x>1110</x>
+     <y>10</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(249, 198, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/25694 (1).png</normaloff>:/icons/icons/25694 (1).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>60</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(232, 203, 255);</string>
+   </property>
+   <property name="text">
+    <string>Seed Array</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_2">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>20</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(232, 203, 255);</string>
+   </property>
+   <property name="text">
+    <string>I do not want to see same numbers</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_14">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>280</y>
+     <width>61</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/pause-circle-fill-play-tool-button-31939.png</normaloff>:/icons/icons/pause-circle-fill-play-tool-button-31939.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>200</width>
+     <height>100</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_15">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>280</y>
+     <width>61</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+     <stylestrategy>PreferDefault</stylestrategy>
+     <kerning>true</kerning>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/ic_skip_next_48px-512.png</normaloff>:/icons/icons/ic_skip_next_48px-512.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>80</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_16">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>280</y>
+     <width>61</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/img_106831.png</normaloff>:/icons/icons/img_106831.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>75</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>150</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_17">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>110</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Papyrus</family>
+     <pointsize>8</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: qradialgradient(spread:reflect, cx:1, cy:1, radius:2, fx:0.074, fy:0.051, stop:0 rgba(72, 72, 72, 252), stop:0.357955 rgba(1, 2, 3, 80), stop:0.44 rgba(12, 6, 6, 80), stop:0.5625 rgba(61, 56, 56, 156), stop:0.704545 rgba(72, 45, 45, 80), stop:0.943182 rgba(113, 113, 113, 0));</string>
+   </property>
+   <property name="text">
+    <string>CREATE ARRAY</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_18">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>160</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/images.png</normaloff>:/icons/icons/images.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_19">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>160</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/kdsfjklhfsdjk.png</normaloff>:/icons/icons/kdsfjklhfsdjk.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(none);</string>
+   </property>
+   <property name="text">
+    <string>Array Size</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(none);
+hover{background-color: rgb(209, 203, 255);}
+</string>
+   </property>
+   <property name="text">
+    <string>Lower Range</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox_range">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(232, 203, 255);</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="minimum">
+    <number>-500</number>
+   </property>
+   <property name="maximum">
+    <number>10000000</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox_array_size_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>110</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(232, 203, 255);</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="minimum">
+    <number>0</number>
+   </property>
+   <property name="maximum">
+    <number>100000</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>10</y>
+     <width>211</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Please enter your array as follows; [5,1,4]&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(232, 203, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
+   </property>
+   <property name="dragEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+   <property name="placeholderText">
+    <string>Please enter your array as follows; [5,1,4]</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>340</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell Condensed</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:reflect, cx:1, cy:1, radius:2, fx:0.074, fy:0.051, stop:0 rgba(72, 72, 72, 252), stop:0.357955 rgba(1, 2, 3, 80), stop:0.44 rgba(12, 6, 6, 80), stop:0.5625 rgba(61, 56, 56, 156), stop:0.704545 rgba(72, 45, 45, 80), stop:0.943182 rgba(113, 113, 113, 0));
+color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
+hover{background-color : lightgreen;}
+</string>
+   </property>
+   <property name="text">
+    <string>Insertion Sort</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>390</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell Condensed</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:reflect, cx:1, cy:1, radius:2, fx:0.074, fy:0.051, stop:0 rgba(72, 72, 72, 252), stop:0.357955 rgba(1, 2, 3, 80), stop:0.44 rgba(12, 6, 6, 80), stop:0.5625 rgba(61, 56, 56, 156), stop:0.704545 rgba(72, 45, 45, 80), stop:0.943182 rgba(113, 113, 113, 0));
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Merge Sort</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>440</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell Condensed</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:reflect, cx:1, cy:1, radius:2, fx:0.074, fy:0.051, stop:0 rgba(72, 72, 72, 252), stop:0.357955 rgba(1, 2, 3, 80), stop:0.44 rgba(12, 6, 6, 80), stop:0.5625 rgba(61, 56, 56, 156), stop:0.704545 rgba(72, 45, 45, 80), stop:0.943182 rgba(113, 113, 113, 0));
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Bubble Sort</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>340</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell Condensed</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:reflect, cx:1, cy:1, radius:2, fx:0.074, fy:0.051, stop:0 rgba(72, 72, 72, 252), stop:0.357955 rgba(1, 2, 3, 80), stop:0.44 rgba(12, 6, 6, 80), stop:0.5625 rgba(61, 56, 56, 156), stop:0.704545 rgba(72, 45, 45, 80), stop:0.943182 rgba(113, 113, 113, 0));
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Counting Sort</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>390</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell Condensed</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:reflect, cx:1, cy:1, radius:2, fx:0.074, fy:0.051, stop:0 rgba(72, 72, 72, 252), stop:0.357955 rgba(1, 2, 3, 80), stop:0.44 rgba(12, 6, 6, 80), stop:0.5625 rgba(61, 56, 56, 156), stop:0.704545 rgba(72, 45, 45, 80), stop:0.943182 rgba(113, 113, 113, 0));
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Quick Sort</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_10">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>440</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell Condensed</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:reflect, cx:1, cy:1, radius:2, fx:0.074, fy:0.051, stop:0 rgba(72, 72, 72, 252), stop:0.357955 rgba(1, 2, 3, 80), stop:0.44 rgba(12, 6, 6, 80), stop:0.5625 rgba(61, 56, 56, 156), stop:0.704545 rgba(72, 45, 45, 80), stop:0.943182 rgba(113, 113, 113, 0));
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Selection Sort</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>490</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell Condensed</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:reflect, cx:1, cy:1, radius:2, fx:0.074, fy:0.051, stop:0 rgba(72, 72, 72, 252), stop:0.357955 rgba(1, 2, 3, 80), stop:0.44 rgba(12, 6, 6, 80), stop:0.5625 rgba(61, 56, 56, 156), stop:0.704545 rgba(72, 45, 45, 80), stop:0.943182 rgba(113, 113, 113, 0));
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Radix Sort</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>490</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell Condensed</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:reflect, cx:1, cy:1, radius:2, fx:0.074, fy:0.051, stop:0 rgba(72, 72, 72, 252), stop:0.357955 rgba(1, 2, 3, 80), stop:0.44 rgba(12, 6, 6, 80), stop:0.5625 rgba(61, 56, 56, 156), stop:0.704545 rgba(72, 45, 45, 80), stop:0.943182 rgba(113, 113, 113, 0));
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Heap Sort</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>540</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell Condensed</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:reflect, cx:1, cy:1, radius:2, fx:0.074, fy:0.051, stop:0 rgba(72, 72, 72, 252), stop:0.357955 rgba(1, 2, 3, 80), stop:0.44 rgba(12, 6, 6, 80), stop:0.5625 rgba(61, 56, 56, 156), stop:0.704545 rgba(72, 45, 45, 80), stop:0.943182 rgba(113, 113, 113, 0));
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Bucket Sort</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>540</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell Condensed</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:reflect, cx:1, cy:1, radius:2, fx:0.074, fy:0.051, stop:0 rgba(72, 72, 72, 252), stop:0.357955 rgba(1, 2, 3, 80), stop:0.44 rgba(12, 6, 6, 80), stop:0.5625 rgba(61, 56, 56, 156), stop:0.704545 rgba(72, 45, 45, 80), stop:0.943182 rgba(113, 113, 113, 0));
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Shelll Sort</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_20">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>590</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell Condensed</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:reflect, cx:1, cy:1, radius:2, fx:0.074, fy:0.051, stop:0 rgba(72, 72, 72, 252), stop:0.357955 rgba(1, 2, 3, 80), stop:0.44 rgba(12, 6, 6, 80), stop:0.5625 rgba(61, 56, 56, 156), stop:0.704545 rgba(72, 45, 45, 80), stop:0.943182 rgba(113, 113, 113, 0));
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Cocktail Sort</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_21">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>590</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell Condensed</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:reflect, cx:1, cy:1, radius:2, fx:0.074, fy:0.051, stop:0 rgba(72, 72, 72, 252), stop:0.357955 rgba(1, 2, 3, 80), stop:0.44 rgba(12, 6, 6, 80), stop:0.5625 rgba(61, 56, 56, 156), stop:0.704545 rgba(72, 45, 45, 80), stop:0.943182 rgba(113, 113, 113, 0));
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Comb Sort</string>
+   </property>
+  </widget>
+  <widget class="QDial" name="verticalSlider">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>160</y>
+     <width>91</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 85, 127);</string>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_22">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>280</y>
+     <width>61</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/img_185728.png</normaloff>:/icons/icons/img_185728.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>45</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox_range_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>60</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(232, 203, 255);</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="minimum">
+    <number>0</number>
+   </property>
+   <property name="maximum">
+    <number>10000000</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(none);
+hover{background-color: rgb(209, 203, 255);}
+</string>
+   </property>
+   <property name="text">
+    <string>Upper Range</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_5">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>640</y>
+     <width>261</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_23">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>740</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/microphone.png</normaloff>:/icons/icons/microphone.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <zorder>checkBox</zorder>
+  <zorder>textEdit</zorder>
+  <zorder>textEdit_2</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>label_6</zorder>
+  <zorder>pushButton_12</zorder>
+  <zorder>pushButton_13</zorder>
+  <zorder>checkBox_2</zorder>
+  <zorder>pushButton_14</zorder>
+  <zorder>pushButton_15</zorder>
+  <zorder>pushButton_16</zorder>
+  <zorder>pushButton_17</zorder>
+  <zorder>pushButton_18</zorder>
+  <zorder>pushButton_19</zorder>
+  <zorder>lineEdit_2</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>spinBox_range</zorder>
+  <zorder>spinBox_array_size_2</zorder>
+  <zorder>lineEdit_3</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>pushButton_8</zorder>
+  <zorder>pushButton_10</zorder>
+  <zorder>pushButton_6</zorder>
+  <zorder>pushButton_7</zorder>
+  <zorder>pushButton_9</zorder>
+  <zorder>pushButton_11</zorder>
+  <zorder>pushButton_20</zorder>
+  <zorder>pushButton_21</zorder>
+  <zorder>widget1</zorder>
+  <zorder>verticalSlider</zorder>
+  <zorder>pushButton_22</zorder>
+  <zorder>spinBox_range_2</zorder>
+  <zorder>lineEdit_4</zorder>
+  <zorder>lineEdit_5</zorder>
+  <zorder>pushButton_23</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>widget1</class>
+   <extends>QWidget</extends>
+   <header location="global">widget1.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>verticalSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>label_6</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1133</x>
+     <y>744</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1149</x>
+     <y>778</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
